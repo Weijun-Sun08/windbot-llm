@@ -1,0 +1,19 @@
+WindBot + LLM
+=============
+
+本仓库基于 WindBot（https://github.com/IceYGO/windbot）。
+
+原项目版权：
+  Copyright (c) 2015-2017 IceYGO
+  以 MIT 许可发布，全文见 LICENSE。
+
+本仓库的修改（LLM 决策部分）：
+  Game/LLMBrain.cs
+  Game/GameAI.cs 中的回调改动
+  Game/AI/Executors/ 下新增的执行器
+  playbook.md、Decks/*.md 中的卡组知识
+  App.config 中的接口配置
+
+这些修改同样以 MIT 许可发布。
+
+WindBot 名称与原始代码的著作权归原作者所有；本仓库不代表原作者立场。
